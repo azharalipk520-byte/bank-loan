@@ -11,6 +11,7 @@ pypdf
 joblib
 matplotlib
 seaborn
+gunicorn==23.0.0
 
 # Optional upgrades (install if you have internet access):
 # tensorflow          # swap the sklearn MLPClassifier in model/train_model.py for a Keras Sequential ANN/CNN/LSTM
