@@ -1,0 +1,20 @@
+# Core (all offline-installable, used by the working demo)
+flask==3.1.3
+pandas
+numpy
+scikit-learn
+scikit-image
+pillow
+reportlab
+python-docx
+pypdf
+joblib
+matplotlib
+seaborn
+
+# Optional upgrades (install if you have internet access):
+# tensorflow          # swap the sklearn MLPClassifier in model/train_model.py for a Keras Sequential ANN/CNN/LSTM
+# torch               # alternative deep learning backend
+# shap                # exact Shapley-value explanations (explain.py auto-detects and uses it if present)
+# anthropic           # enables real Claude-powered text reasoning in app/llm_reasoner.py (set ANTHROPIC_API_KEY)
+# streamlit           # alternative UI framework if you prefer it over Flask

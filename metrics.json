@@ -1,0 +1,44 @@
+{
+  "accuracy": 0.8541666666666666,
+  "roc_auc": 0.8987857919536063,
+  "confusion_matrix": [
+    [
+      34,
+      28
+    ],
+    [
+      7,
+      171
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.8292682926829268,
+      "recall": 0.5483870967741935,
+      "f1-score": 0.6601941747572816,
+      "support": 62.0
+    },
+    "1": {
+      "precision": 0.8592964824120602,
+      "recall": 0.9606741573033708,
+      "f1-score": 0.9071618037135278,
+      "support": 178.0
+    },
+    "accuracy": 0.8541666666666666,
+    "macro avg": {
+      "precision": 0.8442823875474935,
+      "recall": 0.7545306270387822,
+      "f1-score": 0.7836779892354047,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 0.8515392000653674,
+      "recall": 0.8541666666666666,
+      "f1-score": 0.8433618328998309,
+      "support": 240.0
+    }
+  },
+  "n_train": 960,
+  "n_test": 240,
+  "architecture": "MLP(32,16) - ReLU - Adam - early_stopping"
+}
